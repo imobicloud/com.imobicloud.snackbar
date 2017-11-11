@@ -1,28 +1,6 @@
 // TODO: use this for Android
 // // https://github.com/hyperloop-modules/ti.snackbar
 
-/*
-USAGE:
-
-// xml
-<Widget id="snackbar" class="snackbar" src="com.imobicloud.snackbar"/>
-
-// tss
-".snackbar": { DEBUG: false }
-".snackbar[if=Alloy.Globals.UI.IsIPhoneX]": { paddingBottom: 22 }
-
-// js
-$.snackbar.show({
-	action: 'Undo',
-	length: $.snackbar.SNACKBAR_LENGTH_SHORT,
-	lines: $.snackbar.SNACKBAR_LINES_1,
-	message: 'Step removed!',
-	onActionClicked: function() {
-		Ti.API.error("TODO: onActionClicked");
-	}
-});
-*/
-
 // https://developer.android.com/reference/android/support/design/widget/Snackbar.html#LENGTH_INDEFINITE
 var LENGTH_INDEFINITE = -2;
 var LENGTH_LONG = 0;

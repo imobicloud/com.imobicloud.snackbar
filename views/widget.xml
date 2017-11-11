@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="container" class="container" onPostlayout="containerReady">
+		<Label id="message" class="message"/>
+		<Button id="button" class="button" onClick="buttonClick"/>
+	</View>
+</Alloy>

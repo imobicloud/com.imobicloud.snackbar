@@ -1,0 +1,8 @@
+".container": { height: 1, bottom: 0, backgroundColor: '#323232', opacity: 0.1 }
+".container-1": { height: 48, bottom: -47 }
+".container-2": { height: 80, bottom: -79 }
+".container-3": { height: 112, bottom: -111 }
+    ".message": { top: 0, bottom: 0, left: 24, 
+        color: '#fff', font: { fontSize: 14, fontFamily: 'Roboto-Regular' }, verticalAlign: 'center' }
+    ".button": { top: 0, bottom: 0, right: 24, 
+        color: '#fff', font: { fontSize: 14, fontFamily: 'Roboto-Medium' } }
